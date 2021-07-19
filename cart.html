@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css">
+    <!--Name of website-->
+    <title>Jewellary Shop</title>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <h2>Munger Jewellary</h2>
+            <ul>
+                <li><a href="Responsiveecommerce">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="products-container">
+        <div class="product-haeader">
+            <div id="a1">
+                <h5 class="totalQuantity"> Item in cart</h5>
+                <h5 id="cartQuantity"></h5>
+            </div>
+            
+            <div id="a3">
+                <h5 class="totalcost"> Cart Value</h5>
+                <h5 id="cartValue"></h5>
+            </div>
+           
+
+        </div>
+        <div class="btncontainer">
+            <input id="BTN1" type="text" placeholder="">
+            <button class="BTN2" onclick="applycupan()">Apply Cupan</button>
+           
+        </div>
+        <div>
+            <button id = btn1> Pay Now</button>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
